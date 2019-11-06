@@ -60,7 +60,7 @@ while i < days_in_period:
     datedict[i+4] = d
     i = i + 4
 
-token_vk = '269502ac48f4393247fa187cdf996b2be666dee67c48ccddb700c7c837d104bdda542e814bf0fd5f840f9'  # здесь вы должны написать свой access_token
+token_vk = '269502ac48f4393247fa187cdf996b2be666dee67c48ccddb700c7c837d104bdda542e814bf0fd5f840f9'  # токен
 
 vk_session = vk_api.VkApi(token = token_vk)
 
