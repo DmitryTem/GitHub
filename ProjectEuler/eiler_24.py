@@ -49,15 +49,10 @@ start = timefunc()
 main()
 
 L.sort()
-#print('Count: ', L[1000000])
-#print('Count: ', L[999999])
+
 elapsed = timefunc() - start
 print(elapsed)
 
 
 
-#start = timefunc()
-#print('Sum===',find_sum(100000))
-#elapsed = timefunc() - start
-#print(elapsed)
-#print('-'*100)
+

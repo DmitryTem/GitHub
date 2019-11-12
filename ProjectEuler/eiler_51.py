@@ -5,32 +5,7 @@ else:
     timefunc = time.time # На некоторых платформах Unix дает
 			 # лучшее разреше
 			 
-			 
-			 
-			 
-			 
 
-
-
-# Простые
-"""import math
-start = timefunc()
-res = []
-x=2
-start = timefunc()
-while len(res) != 10001:
-    temp = math.ceil(math.sqrt(x)+1)
-    L = [i for i in range(2,temp) if x%i==0 and i!= x]
-    #print(L, x)
-    if not L:
-        res.append(x)
-       # print(res)
-    x+=1
-K = [j for j in range(1,10002)]
-Dic = dict(zip(K,res))
-print(Dic)
-elapsed = timefunc() - start
-print(max(res), elapsed)"""
 
 
 #Simple element 
@@ -83,5 +58,33 @@ print(first)
 elapsed = timefunc() - start
 print(elapsed)
 
+
+
+             
+             
+             
+             
+
+
+
+# Простые
+"""import math
+start = timefunc()
+res = []
+x=2
+start = timefunc()
+while len(res) != 10001:
+    temp = math.ceil(math.sqrt(x)+1)
+    L = [i for i in range(2,temp) if x%i==0 and i!= x]
+    #print(L, x)
+    if not L:
+        res.append(x)
+       # print(res)
+    x+=1
+K = [j for j in range(1,10002)]
+Dic = dict(zip(K,res))
+print(Dic)
+elapsed = timefunc() - start
+print(max(res), elapsed)"""
 
   

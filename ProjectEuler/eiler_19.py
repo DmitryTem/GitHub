@@ -32,8 +32,4 @@ print(elapsed)
 
 
 
-#start = timefunc()
-#print('Sum===',find_sum(100000))
-#elapsed = timefunc() - start
-#print(elapsed)
-#print('-'*100)
+

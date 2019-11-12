@@ -63,6 +63,12 @@ def last_list(B, s):
               diff -= 1
               
     return last_list(L,s)
+
+start = timefunc()
+print('Number ===',last_list([10],0))
+elapsed = timefunc() - start
+print(elapsed)       
+print('-'*100)
     
     """
 def find_first_list(num):
@@ -113,11 +119,7 @@ def recursia(n, s):
         print(n)
     return recursia(n-1, s)
 """
-start = timefunc()
-print('Number ===',last_list([10],0))
-elapsed = timefunc() - start
-print(elapsed)       
-print('-'*100)
+
 
 
 

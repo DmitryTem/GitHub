@@ -33,7 +33,7 @@ elapsed = timefunc() - start
 print(elapsed)
 
 #---------------------------------
-#--------not my recursive---------
+#--------not mine recursive---------
 #---------------------------------
 print('-'*30+'NOT MY'+'-'*30)
 

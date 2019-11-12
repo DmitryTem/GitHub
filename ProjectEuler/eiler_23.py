@@ -38,15 +38,10 @@ def number_sum():
 			 
 start = timefunc()
 
-#print('Count: %d' %(find_sunday_count()))
+
 print('Count: ', number_sum())
 elapsed = timefunc() - start
 print(elapsed)
 
 
 
-#start = timefunc()
-#print('Sum===',find_sum(100000))
-#elapsed = timefunc() - start
-#print(elapsed)
-#print('-'*100)
